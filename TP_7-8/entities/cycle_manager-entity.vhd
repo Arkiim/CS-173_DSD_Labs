@@ -4,14 +4,14 @@ USE ieee.numeric_std.ALL;
 
 ENTITY cycle_manager IS
         GENERIC (
-                r1 : unsigned(8 DOWNTO 0) := to_unsigned(50, 9);
-                r2 : unsigned(8 DOWNTO 0) := to_unsigned(80, 9);
-                r3 : unsigned(8 DOWNTO 0) := to_unsigned(120, 9);
-                r4 : unsigned(8 DOWNTO 0) := to_unsigned(165, 9);
-                cn : unsigned(8 DOWNTO 0) := to_unsigned(20, 9);
-                cr : unsigned(8 DOWNTO 0) := to_unsigned(15, 9);
-                d : unsigned(8 DOWNTO 0) := to_unsigned(175, 9)
-                );
+                r1 : unsigned(8 DOWNTO 0);
+                r2 : unsigned(8 DOWNTO 0);
+                r3 : unsigned(8 DOWNTO 0);
+                r4 : unsigned(8 DOWNTO 0);
+                cn : unsigned(8 DOWNTO 0);
+                cr : unsigned(8 DOWNTO 0);
+                d : unsigned(8 DOWNTO 0)
+        );
 
         PORT (
                 clk : IN STD_LOGIC;
