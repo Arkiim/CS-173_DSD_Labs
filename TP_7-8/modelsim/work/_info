@@ -53,7 +53,7 @@ R6
 R7
 R8
 Ecycle_manager
-w1619513231
+w1620652137
 R0
 R1
 R2
@@ -62,15 +62,37 @@ R3
 FC:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/entities/cycle_manager-entity.vhd
 l0
 L5
-VHMJf6Jb`Sg:JXN]cfDln]3
-!s100 8aG`59ZH>mdNH^eV=]Oi61
+V<gkhUCJR]W2CSdMX;ME0m1
+!s100 75JgG]Ib[AXDT8K_6CgFh0
 R4
 32
-!s110 1620644824
+Z9 !s110 1620666175
 !i10b 1
-!s108 1620644824.000000
+Z10 !s108 1620666175.000000
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/entities/cycle_manager-entity.vhd|
 !s107 C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/entities/cycle_manager-entity.vhd|
+!i113 1
+R7
+R8
+Artl
+Z11 w1620666069
+R0
+R1
+R2
+Z12 DEx4 work 13 cycle_manager 0 22 <gkhUCJR]W2CSdMX;ME0m1
+Z13 8C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/architectures/cycle_manager-rtl.vhd
+Z14 FC:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/architectures/cycle_manager-rtl.vhd
+l9
+L1
+Z15 V2km9AHY_Wn3ZK90eC5mQN3
+Z16 !s100 khiOLg8DX9Y=VglX1NP]d1
+R4
+32
+R9
+!i10b 1
+R10
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/architectures/cycle_manager-rtl.vhd|
+!s107 C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/architectures/cycle_manager-rtl.vhd|
 !i113 1
 R7
 R8
