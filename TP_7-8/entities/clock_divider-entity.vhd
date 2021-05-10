@@ -4,7 +4,7 @@ USE ieee.std_logic_1164.ALL;
 USE ieee.numeric_std.ALL;
 
 ENTITY clock_divider IS
-     GENERIC (ticks_per_second : unsigned(31 DOWNTO 0) := to_unsigned(50, 32));
+     GENERIC (ticks_per_second : unsigned(31 DOWNTO 0));
      --use random test value, remove it after, to assign at compilation 
      PORT (
           clk : IN STD_LOGIC;
