@@ -1,0 +1,98 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/18.1
+Eclock_divider
+w1620424074
+Z0 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dC:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/modelsim
+8C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/entities/clock_divider-entity.vhd
+FC:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/entities/clock_divider-entity.vhd
+l0
+L6
+Vg>9`]dmVKBK04?H]eQn8?0
+!s100 ]<NQC;=GAZ1P9f[9JIf8Y1
+Z4 OV;C;10.5b;63
+32
+Z5 !s110 1620424997
+!i10b 1
+Z6 !s108 1620424997.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/entities/clock_divider-entity.vhd|
+!s107 C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/entities/clock_divider-entity.vhd|
+!i113 1
+Z7 o-work work -2002 -explicit
+Z8 tExplicit 1 CvgOpt 0
+Artl
+Z9 w1620424300
+R0
+R1
+R2
+Z10 DEx4 work 13 clock_divider 0 22 g>9`]dmVKBK04?H]eQn8?0
+Z11 8C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/architectures/clock_divider-rtl.vhd
+Z12 FC:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/architectures/clock_divider-rtl.vhd
+l6
+L1
+Z13 VAGRbB5O?<Ql:0:;A>MN`S3
+Z14 !s100 FlJ=4;g?XQW88bUdLDYYi2
+R4
+32
+R5
+!i10b 1
+R6
+Z15 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/architectures/clock_divider-rtl.vhd|
+!s107 C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/architectures/clock_divider-rtl.vhd|
+!i113 1
+R7
+R8
+Emult
+w1620417866
+R0
+R1
+R2
+R3
+8C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/entities/mult-entity.vhd
+FC:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/entities/mult-entity.vhd
+l0
+L5
+V>kP`Q61`VTOD:DJO27Nea2
+!s100 2zlJFCS]2=Jzck9^3LZYL1
+R4
+32
+Z16 !s110 1620421886
+!i10b 1
+Z17 !s108 1620421886.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/entities/mult-entity.vhd|
+!s107 C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/entities/mult-entity.vhd|
+!i113 1
+R7
+R8
+Artl
+w1620421717
+R0
+R1
+R2
+DEx4 work 4 mult 0 22 >kP`Q61`VTOD:DJO27Nea2
+8C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/architectures/mult-rtl.vhd
+FC:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/architectures/mult-rtl.vhd
+l5
+L1
+VkaBSQSKeYE>ICzIaL9NGa3
+!s100 cE4?Sz`HgGDU7Q9]d;8fJ2
+R4
+32
+R16
+!i10b 1
+R17
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/architectures/mult-rtl.vhd|
+!s107 C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/architectures/mult-rtl.vhd|
+!i113 1
+R7
+R8
