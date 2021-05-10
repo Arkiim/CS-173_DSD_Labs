@@ -53,7 +53,7 @@ R6
 R7
 R8
 Ecycle_manager
-w1620652137
+Z9 w1620671064
 R0
 R1
 R2
@@ -62,37 +62,124 @@ R3
 FC:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/entities/cycle_manager-entity.vhd
 l0
 L5
-V<gkhUCJR]W2CSdMX;ME0m1
-!s100 75JgG]Ib[AXDT8K_6CgFh0
+V7]obEW2=1B=jMIBeSOW=<1
+!s100 n5IZ=>cQgI[[_UJ<M;OYW3
 R4
 32
-Z9 !s110 1620670780
+Z10 !s110 1620679855
 !i10b 1
-Z10 !s108 1620670780.000000
+Z11 !s108 1620679855.000000
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/entities/cycle_manager-entity.vhd|
 !s107 C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/entities/cycle_manager-entity.vhd|
 !i113 1
 R7
 R8
 Artl
-Z11 w1620670740
 R0
 R1
 R2
-Z12 DEx4 work 13 cycle_manager 0 22 <gkhUCJR]W2CSdMX;ME0m1
-Z13 8C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/architectures/cycle_manager-rtl.vhd
-Z14 FC:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/architectures/cycle_manager-rtl.vhd
+DEx4 work 13 cycle_manager 0 22 7]obEW2=1B=jMIBeSOW=<1
+8C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/architectures/cycle_manager-rtl.vhd
+FC:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/architectures/cycle_manager-rtl.vhd
 l8
 L1
-Z15 V1cFUY`^N652okkiTbDFOL2
-Z16 !s100 DPV^b5:>L?3OjQ86>D7^]3
+V1cFUY`^N652okkiTbDFOL2
+!s100 DPV^b5:>L?3OjQ86>D7^]3
 R4
 32
-R9
-!i10b 1
 R10
-Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/architectures/cycle_manager-rtl.vhd|
+!i10b 1
+R11
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/architectures/cycle_manager-rtl.vhd|
 !s107 C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/architectures/cycle_manager-rtl.vhd|
+!i113 1
+R7
+R8
+Elight_manager_normal
+w1620680416
+R0
+R1
+R2
+R3
+8C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/entities/light_manager_normal-entity.vhd
+FC:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/entities/light_manager_normal-entity.vhd
+l0
+L5
+V^7fiaY;`zK1LQLoDP>Ql;3
+!s100 jIn3iFbfKJn1OK_P_U0]23
+R4
+32
+Z12 !s110 1620683593
+!i10b 1
+!s108 1620683592.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/entities/light_manager_normal-entity.vhd|
+!s107 C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/entities/light_manager_normal-entity.vhd|
+!i113 1
+R7
+R8
+Artl
+w1620683566
+R0
+R1
+R2
+DEx4 work 20 light_manager_normal 0 22 ^7fiaY;`zK1LQLoDP>Ql;3
+8C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/architectures/light_manager_normal-rtl.vhd
+FC:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/architectures/light_manager_normal-rtl.vhd
+l8
+L1
+V]IDmWC[BhdnmckZJ_:XCK3
+!s100 M3B3WIC^6:=;;1;;BTEJS2
+R4
+32
+R12
+!i10b 1
+!s108 1620683593.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/architectures/light_manager_normal-rtl.vhd|
+!s107 C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/architectures/light_manager_normal-rtl.vhd|
+!i113 1
+R7
+R8
+Elight_manager_rush
+w1619117980
+R0
+R1
+R2
+R3
+8C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/entities/light_manager_rush-entity.vhd
+FC:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/entities/light_manager_rush-entity.vhd
+l0
+L5
+VB35BbkUf^^kH4W:zWnYfA0
+!s100 _f_Y[`F@Z<okB]0gN9Yz@3
+R4
+32
+!s110 1620686251
+!i10b 1
+Z13 !s108 1620686251.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/entities/light_manager_rush-entity.vhd|
+!s107 C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/entities/light_manager_rush-entity.vhd|
+!i113 1
+R7
+R8
+Artl
+w1619183231
+R0
+R1
+R2
+DEx4 work 18 light_manager_rush 0 22 B35BbkUf^^kH4W:zWnYfA0
+8C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/architectures/light_manager_rush-rtl.vhd
+FC:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/architectures/light_manager_rush-rtl.vhd
+l2
+L1
+VJW2Oh=?Ll7a;AKDIH_4eJ1
+!s100 n<_2l;`HQ83NL`Hm^Tb5a1
+R4
+32
+!s110 1620686252
+!i10b 1
+R13
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/architectures/light_manager_rush-rtl.vhd|
+!s107 C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/architectures/light_manager_rush-rtl.vhd|
 !i113 1
 R7
 R8
