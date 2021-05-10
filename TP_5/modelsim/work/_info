@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/18.1
+Etff_sr
+w1619520105
+Z0 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z1 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z2 dC:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_5/modelsim
+8C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_5/vhdl/tff_sr-entity.vhdl
+FC:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_5/vhdl/tff_sr-entity.vhdl
+l0
+L4
+VRmgFB>U`2i6307eUR^^U@1
+!s100 ^ozn<<hog229=XZOI`:Ig0
+Z3 OV;C;10.5b;63
+32
+Z4 !s110 1620332507
+!i10b 1
+Z5 !s108 1620332507.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_5/vhdl/tff_sr-entity.vhdl|
+!s107 C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_5/vhdl/tff_sr-entity.vhdl|
+!i113 1
+Z6 o-work work -2002 -explicit
+Z7 tExplicit 1 CvgOpt 0
+Agate
+w1620332145
+R0
+R1
+Z8 DEx4 work 6 tff_sr 0 22 RmgFB>U`2i6307eUR^^U@1
+Z9 8C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_5/vhdl/tff_sr-behavior-generic.vhdl
+Z10 FC:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_5/vhdl/tff_sr-behavior-generic.vhdl
+l8
+L1
+V;1TQjZZ6aEV:3MRLP8JW;1
+!s100 999di?=eUG<OgmjdNTGQT1
+R3
+32
+R4
+!i10b 1
+R5
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_5/vhdl/tff_sr-behavior-generic.vhdl|
+!s107 C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_5/vhdl/tff_sr-behavior-generic.vhdl|
+!i113 1
+R6
+R7

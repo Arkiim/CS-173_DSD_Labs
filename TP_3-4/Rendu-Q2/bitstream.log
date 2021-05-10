@@ -1,0 +1,31 @@
+Info: *******************************************************************
+Info: Running Quartus Prime Programmer
+    Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+    Info: Copyright (C) 2018  Intel Corporation. All rights reserved.
+    Info: Your use of Intel Corporation's design tools, logic functions 
+    Info: and other software and tools, and its AMPP partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Intel Program License 
+    Info: Subscription Agreement, the Intel Quartus Prime License Agreement,
+    Info: the Intel FPGA IP License Agreement, or other applicable license
+    Info: agreement, including, without limitation, that your use is for
+    Info: the sole purpose of programming logic devices manufactured by
+    Info: Intel and sold by Intel or its authorized distributors.  Please
+    Info: refer to the applicable agreement for further details.
+    Info: Processing started: Thu Apr  1 03:19:22 2021
+Info: Command: quartus_pgm -c "USB-Blaster [3-3]" -m jtag -o P;bitstream.sof@1
+Info (213045): Using programming cable "USB-Blaster [3-3]"
+Info (213011): Using programming file bitstream.sof with checksum 0x0020B30D for device EP4CE30F23@1
+Info (209060): Started Programmer operation at Thu Apr  1 03:19:23 2021
+Info (209016): Configuring device index 1
+Info (209017): Device 1 contains JTAG ID code 0x020F40DD
+Info (209007): Configuration succeeded -- 1 device(s) configured
+Info (209011): Successfully performed operation(s)
+Info (209061): Ended Programmer operation at Thu Apr  1 03:19:26 2021
+Info: Quartus Prime Programmer was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 430 megabytes
+    Info: Processing ended: Thu Apr  1 03:19:26 2021
+    Info: Elapsed time: 00:00:04
+    Info: Total CPU time (on all processors): 00:00:00

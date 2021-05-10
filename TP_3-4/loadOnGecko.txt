@@ -1,0 +1,4 @@
+FPGA download & synth
+> Load/select altea software
+> C:\IntelFPGA\18.1\quartus\bin64 <== select this one.
+execute, wait a lot and click download 

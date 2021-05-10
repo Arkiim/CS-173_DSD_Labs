@@ -1,0 +1,26 @@
+# Truth table
+# Generated from circuit CodeToDisp
+# Exported on Mon Mar 29 20:40:41 CEST 2021
+
+# Hints and Notes on Formatting:
+# * You can edit this file then import it back into Logisim!
+# * Anything after a '#' is a comment and will be ignored.
+# * Blank lines and separator lines (e.g., ~~~~~~) are ignored.
+# * Keep column names simple (no spaces, punctuation, etc.)
+# * 'Name[N..0]' indicates an N+1 bit variable, whereas
+#   'Name' by itself indicates a 1-bit variable.
+# * You can use 'x' or '-' to indicate "don't care" for both
+#   input and output bits.
+# * You can use binary (e.g., '10100011xxxx') notation or
+#   or hex (e.g., 'C3x'). Logisim will figure out which is which.
+
+A_B_C[2..0] | Q[7..0] 
+~~~~~~~~~~~~~~~~~~~~~~
+    000     | 01000110
+    001     | 01001111
+    010     | 00000110
+    011     | 01001111
+    100     | 01100110
+    101     | 01001011
+    110     | 00111111
+    111     | 01011011
