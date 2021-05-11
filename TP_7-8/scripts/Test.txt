@@ -1,39 +1,132 @@
-SIGNAL s_current_time : unsigned(8 DOWNTO 0);
-SIGNAL s_next_time : unsigned(8 DOWNTO 0);
-s_current_sec_passed : unsigned(8 DOWNTO 0);
-SIGNAL s_next_sec_passed : unsigned(8 DOWNTO 0);
-SIGNAL cycle_time_custom : unsigned(8 DOWNTO 0);
-SIGNAL r1 : unsigned(8 DOWNTO 0) := to_unsigned(50, 9);
-SIGNAL r2 : unsigned(8 DOWNTO 0) := to_unsigned(50, 9) + t1 + t2 + ty + ty;
-SIGNAL d : unsigned(8 DOWNTO 0) := to_unsigned(50, 9) + t1 + t2 + ty + ty + to_unsigned(10, 9);
-
-
-s_next_time <= to_unsigned(0, 9) WHEN (s_current_time + 1) >= d ELSE
-(s_current_time + 1);
-s_next_sec_passed <= to_unsigned(0, 9) WHEN (s_next_time = r1 OR s_next_time = r2) ELSE
-s_current_sec_passed + 1;
-
-counter_async : PROCESS (clk, reset, s_current_time, s_current_sec_passed)
+ARCHITECTURE rtl OF light_manager_rush IS
+    SIGNAL temp : unsigned(8 DOWNTO 0);
+    SIGNAL s_current_state : unsigned(8 DOWNTO 0);
+    SIGNAL s_next_state : unsigned(8 DOWNTO 0);
+    SIGNAL s_test : unsigned(8 DOWNTO 0);
 BEGIN
-IF (reset = '1') THEN
-s_current_time <= to_unsigned(0, 9);
-s_current_sec_passed <= to_unsigned(0, 9);
-L1_green <= '0';
-L2_green <= '0';
-L3_green <= '0';
-L4_green <= '0';
+    s_next_state <= s_current_state + 1;
 
-L1_yellow <= '0';
-L2_yellow <= '0';
+    counter : PROCESS (clk, s_current_state, rst, temp)
+    BEGIN
+        IF (rst = '1') THEN
+            s_current_state <= to_unsigned(0, 9);
+            L1_green <= '0';
+            L2_green <= '0';
+            L3_green <= '0';
+            L4_green <= '0';
 
-L1_red <= '0';
-L2_red <= '0';
-L3_red <= '0';
-L4_red <= '0';
-ELSIF rising_edge(clk) THEN
-s_current_time <= s_next_time;
-s_current_sec_passed <= s_next_sec_passed;
-END IF;
-END PROCESS counter_async;
-cycle_time_custom <= s_current_sec_passed;
-		
+            L1_yellow <= '0';
+            L2_yellow <= '0';
+
+            L1_red <= '0';
+            L2_red <= '0';
+            L3_red <= '0';
+            L4_red <= '0';
+        ELSIF rising_edge(clk) THEN
+            s_current_state <= s_next_state;
+        END IF;
+
+        IF (s_current_state < t3) THEN
+            L1_green <= '1';
+            L2_green <= '0';
+            L3_green <= '0';
+            L4_green <= '0';
+
+            L1_yellow <= '0';
+            L2_yellow <= '0';
+
+            L1_red <= '0';
+            L2_red <= '1';
+            L3_red <= '1';
+            L4_red <= '1';
+
+        ELSIF (s_current_state >= t3 AND s_current_state < (t3 + ty)) THEN
+
+            L1_green <= '0';
+            L2_green <= '0';
+            L3_green <= '0';
+            L4_green <= '0';
+
+            L1_yellow <= '1';
+            L2_yellow <= '1';
+
+            L1_red <= '0';
+            L2_red <= '1';
+            L3_red <= '1';
+            L4_red <= '1';
+
+        ELSIF (s_current_state >= (t3 + ty) AND (s_current_state < (t3 + ty + t4))) THEN
+
+            L1_green <= '0';
+            L2_green <= '1';
+            L3_green <= '0'; --L4 is green not L3, written schema is wrong 
+            L4_green <= '0';
+
+            L1_yellow <= '0';
+            L2_yellow <= '0';
+
+            L1_red <= '1';
+            L2_red <= '0';
+            L3_red <= '1'; --L3 just red, written schema is wrong 
+            L4_red <= '1';
+
+        ELSIF (s_current_state >= (t3 + ty + t4) AND s_current_state < (t3 + t4 + ty + ty)) THEN
+
+            L1_green <= '0';
+            L2_green <= '0';
+            L3_green <= '0';
+            L4_green <= '0';
+
+            L1_yellow <= '0';
+            L2_yellow <= '1';
+
+            L1_red <= '1';
+            L2_red <= '0';
+            L3_red <= '1';
+            L4_red <= '1';
+
+        ELSIF (s_current_state >= (t3 + t4 + ty + ty) AND s_current_state < (t3 + t4 + ty + ty + t5)) THEN
+
+            temp <= (t3 + t4 + ty + ty + t5) - s_current_state;
+
+            L1_green <= '0';
+            L2_green <= '0';
+            L3_green <= '1';
+            L4_green <= '1';
+
+            L1_yellow <= '0';
+            L2_yellow <= '0';
+
+            L1_red <= '1';
+            L2_red <= '1';
+            L3_red <= '0';
+            L4_red <= '0';
+
+            s_test <= (t3 + t4 + ty + ty + t5);
+            L3_countdown <= temp(3 DOWNTO 0);
+            L3_countdown <= temp(3 DOWNTO 0);
+
+        ELSIF (s_current_state >= (t3 + t4 + ty + ty + t5) AND s_current_state < (t3 + t4 + ty + ty + t5 + ty)) THEN
+
+            L1_green <= '0';
+            L2_green <= '0';
+            L3_green <= '0';
+            L4_green <= '0';
+
+            L1_yellow <= '1';
+            L2_yellow <= '0';
+
+            L1_red <= '1';
+            L2_red <= '1';
+            L3_red <= '1';
+            L4_red <= '1';
+
+        END IF;
+    END PROCESS counter;
+
+    --    manager : PROCESS (s_current_state, L3_count, L4_count, temp)
+    --  BEGIN
+
+    -- END PROCESS manager; -- manager
+
+END ARCHITECTURE rtl;
