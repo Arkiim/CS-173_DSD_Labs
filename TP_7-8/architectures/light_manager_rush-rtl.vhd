@@ -1,6 +1,9 @@
 ARCHITECTURE rtl OF light_manager_rush IS
     SIGNAL s_temp : unsigned(8 DOWNTO 0);
+    signal s_test : unsigned(8 downto 0);
 BEGIN
+    --counter : PROCESS (clk, cycle_time, rst, s_temp)
+    --BEGIN
     manager : PROCESS (cycle_time, s_temp)
     BEGIN
         IF (cycle_time < t3) THEN
@@ -79,6 +82,7 @@ BEGIN
             L3_red <= '0';
             L4_red <= '0';
 
+            s_test <= (t3 + t4 + ty + ty + t5);
             L3_countdown <= s_temp(3 DOWNTO 0);
             L4_countdown <= s_temp(3 DOWNTO 0);
 
@@ -98,6 +102,9 @@ BEGIN
             L4_red <= '1';
 
         END IF;
+        --END PROCESS counter;
+
+        --   
     END PROCESS manager; -- manager
 
 END ARCHITECTURE rtl;

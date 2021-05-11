@@ -4,9 +4,9 @@ USE ieee.numeric_std.ALL;
 
 ENTITY light_manager_normal IS
         GENERIC (
-                t1 : unsigned(8 DOWNTO 0) := to_unsigned(9, 9);
-                t2 : unsigned(8 DOWNTO 0) := to_unsigned(9, 9);
-                ty : unsigned(8 DOWNTO 0) := to_unsigned(1, 9));
+                t1 : unsigned(8 DOWNTO 0);
+                t2 : unsigned(8 DOWNTO 0);
+                ty : unsigned(8 DOWNTO 0));
         PORT (
                 cycle_time : IN unsigned(8 DOWNTO 0);
                 -- Elapsed time (in seconds) in the current traffic cycle.
