@@ -11,6 +11,7 @@ ARCHITECTURE rtl OF light_manager IS
     --order : 3 downto 0 == L3_countdown ; 8 downto 4 == L4_countdown;
     --Component Declarations
     COMPONENT light_manager_rush
+
         GENERIC (
             t3 : unsigned(8 DOWNTO 0);
             t4 : unsigned(8 DOWNTO 0);
@@ -77,7 +78,7 @@ BEGIN
         ty => ty
     )
 
-    PORT MAP(
+    PORT MAP(  
         cycle_time => cycle_time,
         L1_red     => s_lights_normal(0),
         L1_yellow  => s_lights_normal(1),
@@ -96,7 +97,6 @@ BEGIN
         L3_countdown => s_countdown_normal(3 DOWNTO 0),
         L4_countdown => s_countdown_normal(7 DOWNTO 4));
 
-    --Multiplexer choosing resulting light configuration
     mode_chooser : PROCESS (is_rush_hour, lights, countdown, s_lights_normal, s_lights_rush, s_countdown_normal, s_countdown_rush)
     BEGIN
         CASE is_rush_hour IS
@@ -108,6 +108,16 @@ BEGIN
                 countdown <= s_countdown_normal;
         END CASE;
     END PROCESS mode_chooser;
+
+    --Multiplexer choosing resulting light configuration
+
+    --    WITH is_rush_hour SELECT lights <=
+    --      s_lights_rush WHEN '1',
+    --    s_lights_normal WHEN OTHERS;
+
+    --WITH is_rush_hour SELECT countdown <=
+    --  s_countdown_rush WHEN '1',
+    --s_countdown_normal WHEN OTHERS;
 
     -- assignment for output
     -- Lights:

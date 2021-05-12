@@ -1,13 +1,14 @@
---Top-level wrapper for TP7/8.
-library ieee;
-use ieee.std_logic_1164.all;
-use ieee.numeric_std.all;
+--Top-level wrapper for TP78.
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+USE ieee.numeric_std.ALL;
 
-entity tp78 is
-port(clock_50MHz : in std_logic;
-     led_array   : out std_logic_vector(0 to 107);
-     seg1        : out std_logic_vector(0 to 7);
-     seg2        : out std_logic_vector(0 to 7);
-     seg3        : out std_logic_vector(0 to 7);
-     seg4        : out std_logic_vector(0 to 7));
-end entity tp78;
+ENTITY tp78 IS
+     PORT (
+          clock_50MHz : IN STD_LOGIC;
+          led_array   : OUT STD_LOGIC_VECTOR(0 TO 107);
+          seg1        : OUT STD_LOGIC_VECTOR(0 TO 7);
+          seg2        : OUT STD_LOGIC_VECTOR(0 TO 7);
+          seg3        : OUT STD_LOGIC_VECTOR(0 TO 7);
+          seg4        : OUT STD_LOGIC_VECTOR(0 TO 7));
+END ENTITY tp78;
