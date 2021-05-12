@@ -8,28 +8,72 @@ z2
 !i10f 100
 cModel Technology
 dC:/intelFPGA_lite/18.1
-Elight_manager
-w1620757705
+Ebcd_to_7seg
+w1619118443
 Z0 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
 Z3 dC:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/modelsim
+8C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/entities/bcd_to_7seg-entity.vhd
+FC:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/entities/bcd_to_7seg-entity.vhd
+l0
+L6
+V<R?P@G1ePN[PMS<6Jl43m0
+!s100 R6=NfhMbEZlifnING^>1I0
+Z4 OV;C;10.5b;63
+32
+Z5 !s110 1620778628
+!i10b 1
+!s108 1620778627.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/entities/bcd_to_7seg-entity.vhd|
+!s107 C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/entities/bcd_to_7seg-entity.vhd|
+!i113 1
+Z6 o-work work -2002 -explicit
+Z7 tExplicit 1 CvgOpt 0
+Artl
+w1620778625
+R0
+R1
+R2
+Z8 DEx4 work 11 bcd_to_7seg 0 22 <R?P@G1ePN[PMS<6Jl43m0
+Z9 8C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/architectures/bcd_to_7seg-rtl.vhd
+Z10 FC:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/architectures/bcd_to_7seg-rtl.vhd
+l5
+L1
+V5Q7fH>A::G2dkiAMe;e<G0
+!s100 l]`zMJO5M9=6PRY@CgXUI3
+R4
+32
+R5
+!i10b 1
+!s108 1620778628.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/architectures/bcd_to_7seg-rtl.vhd|
+!s107 C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/architectures/bcd_to_7seg-rtl.vhd|
+!i113 1
+R6
+R7
+Elight_manager
+w1620757705
+R0
+R1
+R2
+R3
 8C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/entities/light_manager-entity.vhd
 FC:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/entities/light_manager-entity.vhd
 l0
 L5
 VIH:;2@J2;idF1>M_Boa2D1
 !s100 @@ORa`UbhXWKVCnK`S?CR3
-Z4 OV;C;10.5b;63
+R4
 32
-Z5 !s110 1620764595
+Z12 !s110 1620764595
 !i10b 1
-Z6 !s108 1620764595.000000
+Z13 !s108 1620764595.000000
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/entities/light_manager-entity.vhd|
 !s107 C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/entities/light_manager-entity.vhd|
 !i113 1
-Z7 o-work work -2002 -explicit
-Z8 tExplicit 1 CvgOpt 0
+R6
+R7
 Artl
 w1620764264
 R0
@@ -44,16 +88,16 @@ V4j>zjTeNHIKR[N<[i7MhQ0
 !s100 F32g5Cz?5]WQcW=2_VzY23
 R4
 32
-R5
+R12
 !i10b 1
-R6
+R13
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/architectures/light_manager-rtl.vhd|
 !s107 C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/architectures/light_manager-rtl.vhd|
 !i113 1
+R6
 R7
-R8
 Elight_manager_normal
-Z9 w1620753348
+Z14 w1620753348
 R0
 R1
 R2
@@ -66,37 +110,37 @@ VO8Da6Le=<6lcz_MLzQ5Ic3
 !s100 d=?F2iIlA;24^o7cKAaCW3
 R4
 32
-R5
+R12
 !i10b 1
-R6
+R13
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/entities/light_manager_normal-entity.vhd|
 !s107 C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/entities/light_manager_normal-entity.vhd|
 !i113 1
+R6
 R7
-R8
 Artl
 R0
 R1
 R2
-Z10 DEx4 work 20 light_manager_normal 0 22 O8Da6Le=<6lcz_MLzQ5Ic3
-Z11 8C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/architectures/light_manager_normal-rtl.vhd
-Z12 FC:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/architectures/light_manager_normal-rtl.vhd
+DEx4 work 20 light_manager_normal 0 22 O8Da6Le=<6lcz_MLzQ5Ic3
+8C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/architectures/light_manager_normal-rtl.vhd
+FC:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/architectures/light_manager_normal-rtl.vhd
 l5
 L1
-Z13 VZ9<:cOiDi6fjhWA5_XW^41
-Z14 !s100 U;e>R3<]nWBg`>F[0KD:;3
+VZ9<:cOiDi6fjhWA5_XW^41
+!s100 U;e>R3<]nWBg`>F[0KD:;3
 R4
 32
 !s110 1620764596
 !i10b 1
 !s108 1620764596.000000
-Z15 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/architectures/light_manager_normal-rtl.vhd|
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/architectures/light_manager_normal-rtl.vhd|
 !s107 C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/architectures/light_manager_normal-rtl.vhd|
 !i113 1
+R6
 R7
-R8
 Elight_manager_rush
-Z16 w1620753366
+Z15 w1620753366
 R0
 R1
 R2
@@ -109,14 +153,14 @@ Vd6SNNSQ7:l21Xd8hO4EPm2
 !s100 Qagf7R0=TM0Xna[[`<K1d1
 R4
 32
-R5
+R12
 !i10b 1
-R6
+R13
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/entities/light_manager_rush-entity.vhd|
 !s107 C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/entities/light_manager_rush-entity.vhd|
 !i113 1
+R6
 R7
-R8
 Artl
 R0
 R1
@@ -130,11 +174,11 @@ V_JfRk:Rzn1OEIbZRUChdl1
 !s100 lZ^LSG0403XS?A:>E=Vn@2
 R4
 32
-R5
+R12
 !i10b 1
-R6
+R13
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/architectures/light_manager_rush-rtl.vhd|
 !s107 C:/Users/noahm/OneDrive/Documents/BA2/DSD-CS173/TPs/TP_7-8/architectures/light_manager_rush-rtl.vhd|
 !i113 1
+R6
 R7
-R8
